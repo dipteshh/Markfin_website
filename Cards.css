@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+.department {
+    width:100%;
+    height:100%;
+    padding:100px 0;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    transition: all 0.5s ease-in-out; 
+}
+
+.dep {    
+    display: flex;
+    justify-content: center;
+    color: #14213D;
+    font-size: 30px;
+    font-family:monospace;
+    margin: 50px;
+    width: 250px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 2px 6px 5px #8d99ae;
+    border: 2px #14213D solid;
+    padding: 150px 100px;
+    transition-property: transform, letter-spacing, font-size;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    /* transition: trasnform,font-size 0.1s ease-in; 
+    transition: border 0.4s ease-in-out;  */
+}
+
+#mar {
+    background: url(https://www.theaic.co.uk/sites/default/files/styles/content_width_1_2/public/2020-10/Undraw-What-are-investment-companies-investment-trusts.png?itok=UQwFIUVc) no-repeat center center/cover;
+}
+#fin {
+    background: url(https://www.theaic.co.uk/sites/default/files/styles/content_width_1_2/public/2020-10/Undraw-What-are-investment-companies-investment-trusts.png?itok=UQwFIUVc) no-repeat center center/cover;
+}
+#inv {
+    background: url(https://www.theaic.co.uk/sites/default/files/styles/content_width_1_2/public/2020-10/Undraw-What-are-investment-companies-investment-trusts.png?itok=UQwFIUVc) no-repeat center center/cover;
+}
+button:hover{
+    transform: scale(1.1);
+    
+    /* filter: invert(100%); */
+    box-shadow: 3px 7px 10px #8d99ae;
+    letter-spacing: 2px;
+    font-size: 32px;
+    border: 2px #fff solid;
+    cursor: pointer;
+}
